@@ -3,8 +3,8 @@ public class incercare {
 
         System.out.println("Input numer:8");
         int nr = 5;
-        for (int pulamea = 0; pulamea <= 9; pulamea++) {
-            System.out.println(nr + "X" + (pulamea + 1) + "=" + (nr * (pulamea + 1)));
+        for (int i = 0; i <= 9; i++) {
+            System.out.println(nr + "X" + (i + 1) + "=" + (nr * (i + 1)));
             // Avem 9 este variabila / 'for' conditie pentru repetarea unei sarcini
             // folosim int pentru a specifica variabila la care vrem sa intre in loop/repetare
             // 'i=0' de unde incepe numaratoarea
